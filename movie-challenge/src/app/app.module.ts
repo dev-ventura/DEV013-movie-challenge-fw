@@ -8,6 +8,7 @@ import { MocksComponent } from './mocks/mocks.component';
 import { ServicesComponent } from './shared/services/services.component';
 import { UtilsComponent } from './utils/utils.component';
 import { ModelsComponent } from './models/models.component';
+import { Movie } from './src/models/movie.d.ts/movie.d.ts.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ModelsComponent } from './models/models.component';
     MocksComponent,
     ServicesComponent,
     UtilsComponent,
-    ModelsComponent
+    ModelsComponent,
+    Movie.D.TsComponent
   ],
   imports: [
     BrowserModule,
